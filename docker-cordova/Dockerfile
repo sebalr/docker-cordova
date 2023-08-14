@@ -1,0 +1,7 @@
+FROM slarrieu/docker-android-nodejs:12
+
+ENV CORDOVA_VERSION=12.0.0 \
+    CORDOVA_BUILD_TOOLS_VERSION=33.0.2 \
+    ANDROID_HOME=$ANDROID_SDK_ROOT
+
+WORKDIR "/tmp"
